@@ -1,97 +1,51 @@
-/* Reset and Base Styles */
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f9f9ff;
-  color: #222;
-  line-height: 1.6;
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color:#f4f4f4;
 }
-
-/* Header */
 header {
-  background: linear-gradient(90deg, #4e54c8, #8f94fb);
-  color: white;
-  padding: 25px 15px;
-  text-align: center;
-  font-size: 2rem;
-  font-weight: bold;
-  letter-spacing: 1px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+background: #333;
+color: white;
+padding: 15px;
+text-align: center;S
 }
-
-/* Navigation */
 nav ul {
-  list-style: none;
-  padding: 0;
-  text-align: center;
-  margin: 0;
+list-style: none;
+padding: 0;
 }
-
 nav ul li {
-  display: inline-block;
-  margin: 0 20px;
+display: inline;
+margin: 0 15px;
 }
-
 nav ul li a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 1.2rem;
-  transition: color 0.3s ease;
+color: white;
+text-decoration: none;
+font-size: 18px;
 }
-
-nav ul li a:hover {
-  color: #ffd700;
-}
-
-/* Section */
 section {
-  padding: 40px 20px;
-  text-align: center;
+padding: 20px;
+text-align: center;
 }
-
-/* Project Cards */
 .project {
-  background: #fff;
-  padding: 25px;
-  margin: 20px auto;
-  max-width: 600px;
-  border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+background: white;
+padding: 15px;
+margin: 10px auto;
+max-width: 500px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
-.project:hover {
-  transform: translateY(-5px);
-}
-
 .project img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-  margin-bottom: 15px;
+max-width: 100%;
+height: auto;
 }
-
-/* Links */
-a {
-  color: #4e54c8;
-  text-decoration: none;
-  font-weight: 600;
+a{
+color: #300;
 }
-
-a:hover {
-  color: #ff5e9c;
-}
-
-/* Footer-like Heading */
-.h {
-  width: 100%;
-  text-align: center;
-  padding: 30px 0;
-  background: #262626;
-  color: white;
-  font-size: 1.5rem;
-  font-weight: 400;
-  margin-top: 40px;
-  letter-spacing: 1px;
+.h{
+width:100%;
+text-align:center;
+padding:25px 0;
+background:#262626;
+font-weight:300;
+margin-top:20px;
 }
